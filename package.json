@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "puppeteer": "^24.15.0"
+  },
+  "name": "invoice-automation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sistema completo para automação de download, processamento e distribuição de faturas de operadoras de telefonia móvel, com interface web para gerenciamento e execução agendada ou sob demanda.",
+  "main": "loginWebPuppeteer.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

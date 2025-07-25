@@ -1,0 +1,54 @@
+<!-- Fecar modal de tour -->
+<button class="mdn-Button-header-close mdn-Button mdn-Button--icon mdn-Button--secondaryInverse color-icon-onboarding"
+    aria-label="Close modal">
+    <i aria-hidden="true" class="mdn-Icon-fechar mdn-Icon--sm"></i>
+</button>
+
+<!-- Fechar modal de propaganda -->
+<button class="mdn-Button-header-close mdn-Button mdn-Button--icon mdn-Button--secondary close-modal-incentive-pos-pago"
+    aria-label="Close modal">
+    <i aria-hidden="true" class="mdn-Icon-fechar mdn-Icon--sm"></i>
+</button>
+
+<!-- Acessar o numero que está selecionado -->
+<button class="mdn-Menu-top-event mdn-Menu-top-action" aria-expanded="false">
+    <span class="mdn-Icon-celular mdn-Icon--md" aria-hidden="true"></span>
+    <span class="mdn-Text current-resource" id="currentResource">
+        <strong>Controle</strong> •
+        <span aria-label="(15) 99286-9785 Clique para expandir o menu.">(15) 99286-9785</span>
+    </span>
+    <span class="mdn-Icon-seta-baixo-preenchida mdn-Icon--sm" aria-hidden="true"></span>
+</button>
+
+<!-- Botão Controle ver fatura -->
+<a target="_top" href="/mcpf/index.html#.html/faturas/minhas-faturas">
+    <button data-tag="clique:ver-faturas" data-title="faturas:ver-faturas"
+        class="mdn-Button mdn-Button--secondary mdn-Button--md "> Ver faturas </button>
+</a>
+
+<button data-tag="clique:ver-faturas" data-title="faturas:ver-faturas"
+    class="mdn-Button mdn-Button--secondary mdn-Button--md "> Ver faturas</button>
+
+<!-- Botão Download Fatura -->
+<!-- Pós-pago -->
+<a href="https://minhaclaro.claro.com.br:/woa/rest/Faturamento/v1/faturadigital/visualizar?data-vencimento=2025-07-15"
+    onclick="claroUtil.openModalSurveyForDownloadInvoices(); claroGA.reportGA4({'event' : 'clique','custom_section':'minha_claro_web:fatura-interativa','custom_title': 'resumo_da_fatura:download_fatura'});"
+    target="_blank" class="mdn-Shortcut mdn-Shortcut--secondary" aria-label="Shortcut clicável">
+    <i class="mdn-Shortcut-icon mdn-Icon-download mdn-Icon--md"></i>
+    <p class="mdn-Shortcut-text">Fazer download da fatura</p>
+</a>
+<!-- Controle pago -->
+<a href="https://minhaclaro.claro.com.br:/woa/rest/Faturamento/v1/faturadigital/visualizar?data-vencimento=2025-07-15"
+    target="_blank"
+    onclick="claroUtil.openModalSurveyForDownloadInvoices(); claroGA.reportGA4({'event' : 'clique','custom_section':'minha_claro_web:fatura-interativa','custom_title': '[[resumo_da_fatura]]:[[download_fatura]]'});"
+    class="mdn-Shortcut mdn-Shortcut--secondary" aria-label="Fazer download da fatura">
+    <i class="mdn-Shortcut-icon mdn-Icon-download mdn-Icon--md"></i>
+    <p class="mdn-Shortcut-text">Fazer download da fatura</p>
+</a>
+<!-- Controle pendente -->
+<a href="https://minhaclaro.claro.com.br:/woa/rest/Faturamento/v1/faturadigital/visualizar?data-vencimento=2025-07-15"
+    onclick="claroUtil.openModalSurveyForDownloadInvoices(); claroGA.reportGA4({'event' : 'clique','custom_section':'minha_claro_web:fatura-interativa','custom_title': 'resumo_da_fatura:download_fatura'});"
+    target="_blank" class="mdn-Shortcut mdn-Shortcut--secondary" aria-label="Shortcut clicável">
+    <i class="mdn-Shortcut-icon mdn-Icon-download mdn-Icon--md"></i>
+    <p class="mdn-Shortcut-text">Fazer download da fatura</p>
+</a>
